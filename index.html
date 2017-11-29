@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body
+{
+	background-color:#777777;
+}
+p
+{
+	font-family:"Times New Roman";
+	font-size:30px;
+       text-align:center;
+}
+ .header{  
+                padding: 10px 0;  
+    
+              color:black;
+	text-align:center;
+        font-family:"Lucida Console";
+        font-size:50px 
+            }  
+.sidebar{  
+                float: left;
+                width: 150px;  
+                background: #FFFAF0;  
+            }  
+
+.content {
+position:relative;
+width:auto;
+min-width:120px;
+margin:0px 210px 20px 170px;
+border:1px solid black;
+padding:10px;
+z-index:3;} 
+a:link { 
+color:#DCDCDC;
+text-decoration:underline; 
+} 
+a:visited { 
+color:	#DCDCDC; 
+text-decoration:none; 
+} 
+a:hover { 
+color:#000000; 
+text-decoration:none; 
+} 
+a:active { 
+color:#DCDCDC; 
+text-decoration:none; 
+} 
+</style>
+<body>
+   <div class="header">  
+                <h1>TEACH U WEB</h1>  
+   </div>  
+ <div class="sidebar">  
+                   <a href="https://megurokawa.github.io/teachuweb/" target="_blank"><p>TEACH U WEB</p></a>
+                     <a href="https://megurokawa.github.io/html/" target="_blank"><p>HTML</p></a> 
+                    <a href="https://megurokawa.github.io/html5/" target="_blank"><p>HTML5</p></a>
+                    <a href="https://megurokawa.github.io/xhtml/" target="_blank"><p>XHTML</p></a>
+                    <a href="https://megurokawa.github.io/css/" target="_blank"><p>CSS</p></a>
+   </div>
+<div class="content"> 
+<h2>CSS Introduction<h2>
+<hr>
+<h3>Basic Knowledge</h3>
+<p>Before continuing, you need to have a basic understanding of the following:</p>
+<ul>
+<li><a href="https://megurokawa.github.io/html/" target="_blank"><p>HTML</p></a></li>
+<li><a href="https://megurokawa.github.io/xhtml/" target="_blank"><p>XHTML</p></a></li>
+</ul>
+<hr>
+<ul>
+<h3>CSS overview</h3>
+<li>CSS refers to Cascading Style Sheets.</li>
+<li>Styles define how to display HTML elements.</li>
+<li>Styles are usually stored in style sheets.</li>
+<li>External style sheets are usually stored in a CSS file</li>
+<li>Multiple style definitions can be stacked in one</li>
+</ul>
+<hr>
+
+<h3>The style solves a common problem</h3>
+<h4>HTML tags were originally designed to define the content of the document.By using labels such as &lt;h1&gt;,&lt;p&gt; and &lt;table&gt;, the original intention of the HTML was to convey "This is the title", "This is the paragraph," "This is the table," and so on.</h4>
+<h4>As both major browsers (Netscape and Internet Explorer) continually add new HTML tags and attributes (such as font tags and color attributes) to the HTML specification, creating sites that clearly document content independent of the presentation layer of the document is more and more difficult.</h4>
+<h4>To address this issue, the World Wide Web Consortium (W3C), the non-profit, standardized consortium, took on the task of HTML standardization and created a style outside HTML 4.0.<h4>
+<h4>All major browsers support Cascading Style Sheets.<h4>
+
+<hr>
+<h3>Style Sheets Greatly Improve Work Efficiency</h3>
+<h4>Style sheets define how to display HTML elements, just as HTML 3.2's font labels and color attributes do.</h4>
+<h4>The style is usually saved in an external .css file. By simply editing a simple CSS document, external stylesheets give you the ability to change the layout and appearance of all the pages in your webpage at the same time.</h4>
+<br>
+<h4>With the ability to control the style and layout of multiple pages at the same time, CSS is a breakthrough in WEB design.<h4>
+<h4>As a website developer, you can define a style for each HTML element and apply it to as many pages as you like.<h4>
+<h4>For a global update, simply change the style and then all the elements in the website are automatically updated.<h4>
+<hr>
+<h3>Multiple Styles Will Be Casacaded One</h3>
+<h4>Style sheets allow specification of style information in a variety of ways.</h4>
+<h4>Styles can be specified in a single HTML element, in the header element of an HTML page, or in an external CSS file.</h4>
+<h4>Even multiple external style sheets can be referenced inside a single HTML document.</h4>
+<hr>
+<h3>Cascading Order</h3>
+<h3>Which Style Will Be Used When the Same HTML Element is Defined by More Than One Style?</h3>
+<h4>In general, all styles are stacked in a new virtual style sheet based on the following rules, with number 4 having the highest priority.<h4>
+<ol>
+<li>CSS refers to Cascading Style Sheets.</li>
+<li>External style sheet.</li>
+<li>Internal style sheet (inside <head> tag)</li>
+<li>Inline style (inside HTML element)</li>
+</ol>
+<h4>Therefore, an inline style (within an HTML element) has the highest priority, which means it takes precedence over the style declarations in the &lt;head&gt;tag, style declarations in external style sheets, or in Style declaration (default) of the browser.<h4>
+<hr>
+<a href="https://megurokawa.github.io/cssbasic/" target="_blank"><p>CSS Basic Syntax</p></a> 
+
+</div>
+<a href="#top" target="_self">back to the top</a>
+</body>
+</html>
